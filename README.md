@@ -8,4 +8,7 @@ Taking advantage of the yt and numpy APIs for python, this code computes the POD
 of a scalar field for later computing the time coefficients and sequential reconstruction
 of the most dominant modes using the snapshots method for POD.
 This code is still preliminar and it still has some bugs.
-
+## POD Module (PODMod.py)
+This module contains all the necessary functions for extracting the POD modes and perform the Galerkin projection
+### ReynoldsDecomp.py
+This function performs a Reynolds decomposition of the simulation data. It extracts the average or mean flow as well as the fluctuating part of the flow.
